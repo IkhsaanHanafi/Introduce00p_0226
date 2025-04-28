@@ -8,10 +8,9 @@ class Planet {
        string nama;
        float diameter;
 
-       void displaydata(){
-        cout << "Halo aku planet" << nama << endl;
-        cout << "ukuranku" << diameter << endl;
-        cout << "gravitasiku" << gravitasi << endl;
+       void displaydata() {
+        
+            cout << "gravitasiku" << gravitasi << endl;
        }
        
     void inputData(){
@@ -31,6 +30,8 @@ int main()
     Venus.inputData(); //tanda () memanggil method
     cout << "namanya adalah" << Venus .nama <<endl;
     cout << "diameternya adalah" << Venus.nama <<endl;
-    
+
+    Venus.displaydata(); //pemanggil method 
+
 
 };
